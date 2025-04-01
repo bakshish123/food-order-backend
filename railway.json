@@ -1,0 +1,13 @@
+{
+    "build": {
+      "builder": "nixpacks",
+      "nixpacksPlan": {
+        "phases": {
+          "setup": {
+            "nixPkgs": ["nodejs-18_x"]
+          }
+        }
+      }
+    }
+  }
+  
